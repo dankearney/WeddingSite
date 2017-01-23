@@ -137,7 +137,7 @@
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1160px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -903,7 +903,7 @@
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1160px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1611,7 +1611,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -3082,7 +3082,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			.wrapper > .inner {
 				width: 100%;
@@ -3192,7 +3192,7 @@
 		display: inline-block;
 	}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			#nav {
 				display: none;
@@ -3230,7 +3230,7 @@
 			width: 3.5em;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			.navPanelToggle {
 				display: block;
@@ -3350,7 +3350,7 @@
 				color: inherit;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			#navPanel {
 				display: block;
@@ -3537,7 +3537,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			#banner {
 				padding: 12em 0 10em 0;
@@ -3583,7 +3583,7 @@
 		padding: 6em 0 4em 0;
 	}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			#one {
 				padding: 4em 0 2em 0;
@@ -3632,7 +3632,7 @@
 					padding-left: 6em;
 				}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			#two {
 				padding: 4em 0 2em 0;
@@ -3708,7 +3708,7 @@
 					font-size: 3em;
 				}
 
-			@media screen and (max-width: 980px) {
+			@media screen and (max-width: 1160px) {
 
 				#three .inner {
 					-moz-flex-direction: column;
@@ -3724,7 +3724,7 @@
 
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			#three {
 				padding: 4em 0 2em 0;
@@ -3940,7 +3940,7 @@
 				color: #f2a3a5;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1160px) {
 
 			#footer {
 				padding: 4em 0 2em 0;
