@@ -13,7 +13,7 @@ app.configure(function(){
 });
 
 app.get('/', function(req, resp) {
-  resp.render('layout');
+  resp.render('splash');
 });
 
 app.listen(app.get('port'), function() {

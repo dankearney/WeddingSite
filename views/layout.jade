@@ -1,12 +1,62 @@
 doctype html(lang='en')
 head
-    meta(charset='utf-8')
-    title WeddingSite
-    meta(name='description', content="Wedding site for Lauren Bearden and Dan Kearney's wedding in Cazenovia, NY on August 12, 2017")
-    meta(name='author', content='Daniel Kearney')
-    link(href='/main.css', rel='stylesheet')
-  body
-    h1 Dan and Lauren's wedding site!
-    p We're getting married on August 12, 2017 at the Brewster Inn in Cazenovia, New York!
-    p Please RSVP at 
-      a(href='mailto:rsvp@danandlauren.wedding?Subject=RSVP', target='_top') rsvp@danandlauren.wedding
+  meta(charset='utf-8')
+  title WeddingSite
+  meta(name='description', content="Wedding site for Lauren Bearden and Dan Kearney's wedding in Cazenovia, NY on August 12, 2017")
+  meta(name='author', content='Daniel Kearney')
+  link(href='/css/introspect.css', rel='stylesheet')
+  // Scripts
+  script(src='/js/jquery.min.js')
+  | &#x9;&#x9;&#x9;
+  script(src='/js/skel.min.js')
+  | &#x9;&#x9;&#x9;
+  script(src='/js/util.js')
+  | &#x9;&#x9;&#x9;
+  script(src='/js/main.js')
+body
+  header#header
+    .inner
+      a.logo(href='index.html') introspect
+      | &#x9;&#x9;&#x9;&#x9;&#x9;
+      nav#nav
+        a(href='index.html') Home
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        a(href='generic.html') Generic
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        a(href='elements.html') Elements
+    | &#x9;&#x9;&#x9;
+    a.navPanelToggle(href='#menu')
+      span.fa.fa-bars
+
+  block content
+
+  // footer
+  section#footer
+    .inner
+      header
+        h2 Get in Touch
+      | &#x9;&#x9;&#x9;&#x9;&#x9;
+      form(method='post', action='#')
+        .field.half.first
+          label(for='name') Name
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          input#name(type='text', name='name')
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        .field.half
+          label(for='email') Email
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          input#email(type='text', name='email')
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        .field
+          label(for='message') Message
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          textarea#message(name='message', rows='6')
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        ul.actions
+          li
+            input.alt(type='submit', value='Send Message')
+      | &#x9;&#x9;&#x9;&#x9;&#x9;
+      .copyright
+        | &copy; Untitled Design: 
+        a(href='https://templated.co/') TEMPLATED
+        | . /images 
