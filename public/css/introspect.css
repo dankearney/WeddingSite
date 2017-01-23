@@ -3301,6 +3301,7 @@
 			display: block;
 			padding: 0.75em 0;
 			text-decoration: none;
+			font-size: 1.25em;
 		}
 
 			#navPanel a:not(.close):first-child {
