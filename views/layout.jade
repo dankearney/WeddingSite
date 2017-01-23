@@ -5,6 +5,7 @@ head
   meta(name='description', content="Wedding site for Lauren Bearden and Dan Kearney's wedding in Cazenovia, NY on August 12, 2017")
   meta(name='author', content='Daniel Kearney')
   link(href='/css/introspect.css', rel='stylesheet')
+  link(href='/css/main.css', rel='stylesheet')
   // Scripts
   script(src='/js/jquery.min.js')
   | &#x9;&#x9;&#x9;
@@ -14,19 +15,17 @@ head
   | &#x9;&#x9;&#x9;
   script(src='/js/main.js')
 body
+  // Header
   header#header
     .inner
       a.logo(href='index.html') introspect
-      | &#x9;&#x9;&#x9;&#x9;&#x9;
       nav#nav
         a(href='index.html') Home
-        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
         a(href='generic.html') Generic
-        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
         a(href='elements.html') Elements
-    | &#x9;&#x9;&#x9;
-    a.navPanelToggle(href='#menu')
-      span.fa.fa-bars
+  a.navPanelToggle(href='#menu')
+    span.fa.fa-bars
+
 
   block content
 
