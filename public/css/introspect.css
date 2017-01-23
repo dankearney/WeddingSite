@@ -3743,10 +3743,10 @@
 /* Footer */
 
 	#footer {
-		background-color: #e5474b;
-		color: #f2a3a5;
-		padding: 4em 0 2em 0;
-		background: #e5474b;
+		background-color: rgb(240, 240, 240);
+		color: black;
+		padding: 1em 0 1em 0;
+		background: rgb(240, 240, 240);
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -3933,7 +3933,6 @@
 
 		#footer .copyright {
 			font-size: 0.9em;
-			margin: 0 0 2em 0;
 			padding: 0;
 		}
 
