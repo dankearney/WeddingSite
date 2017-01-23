@@ -16,6 +16,10 @@ app.get('/', function(req, resp) {
   resp.render('splash');
 });
 
+app.get('/the-wedding-party', function(req, resp) {
+  resp.render('the-wedding-party')
+})
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
