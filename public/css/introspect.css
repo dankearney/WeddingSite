@@ -3943,22 +3943,7 @@
 			padding: 0;
 		}
 
-			#footer .copyright a {
-				color: #f2a3a5;
-			}
-
-		@media screen and (max-width: 1160px) {
-
-			#footer {
-				padding: 4em 0 2em 0;
-			}
-
+		#footer .copyright a {
+			color: #f2a3a5;
 		}
 
-		@media screen and (max-width: 736px) {
-
-			#footer {
-				padding: 2em 0 0.1em 0;
-			}
-
-		}
