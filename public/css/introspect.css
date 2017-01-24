@@ -1790,7 +1790,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #e5474b;
+		color: #779;
 	}
 
 	blockquote {
@@ -3146,7 +3146,7 @@
 		}
 
 			#header .logo:hover {
-				color: rgba(229, 71, 75, 0.75);
+				color: rgba(255, 255, 255, 0.75);
 			}
 
 		#header a {

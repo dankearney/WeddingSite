@@ -20,6 +20,22 @@ app.get('/the-wedding-party', function(req, resp) {
   resp.render('the-wedding-party')
 })
 
+app.get('/wedding-details', function(req, resp) {
+  resp.render('wedding-details')
+})
+
+app.get('/gift-registry', function(req, resp) {
+  resp.render('gift-registry')
+})
+
+app.get('/things-to-do', function(req, resp) {
+  resp.render('things-to-do')
+})
+
+app.get('*', function(req, resp) {
+  resp.redirect('/')
+})
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
