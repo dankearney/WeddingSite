@@ -3749,6 +3749,11 @@
 		color: black;
 		padding: 1em 0 1em 0;
 		background: rgb(240, 240, 240);
+	  position: absolute;
+    padding: 1em 0 1em 0;
+    width: 100%;
+    bottom: 0px;
+    background: rgb(240, 240, 240);
 	}
 
 		#footer input, #footer select, #footer textarea {
