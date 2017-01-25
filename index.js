@@ -28,8 +28,8 @@ app.get('/gift-registry', function(req, resp) {
   resp.render('gift-registry')
 })
 
-app.get('/things-to-do', function(req, resp) {
-  resp.render('things-to-do')
+app.get('/local-attractions', function(req, resp) {
+  resp.render('local-attractions')
 })
 
 app.get('*', function(req, resp) {
