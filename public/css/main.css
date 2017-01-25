@@ -18,3 +18,8 @@
 	width: 75%;
 	max-width: 600px;
 }
+
+.left, .right {
+	float: left;
+	width: 49%;
+}
