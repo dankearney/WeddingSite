@@ -1658,6 +1658,8 @@
 	p {
 		margin: 0 0 1em 0;
 		font-size: 1.1em;
+		font-weight: 400;
+		color: #1c1c1c;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1783,6 +1785,7 @@
 
 	a {
 		color: #e5474b;
+		font-weight: 400;
 	}
 
 	strong, b {
