@@ -19,7 +19,23 @@
 	max-width: 600px;
 }
 
-.left, .right {
+.left {
 	float: left;
 	width: 49%;
+}
+
+.right {
+	float: right;
+	width: 49%;
+}
+
+.party-image {
+    height: 150px;
+    border-radius: 75px;
+    float: left;
+    margin: 10px;
+}
+
+.row {
+	margin-bottom: 3em;
 }
