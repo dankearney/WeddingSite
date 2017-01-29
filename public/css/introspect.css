@@ -3208,7 +3208,7 @@
 		position: fixed;
 		text-decoration: none;
 		height: 4em;
-		right: 0em;
+		right: 2em;
 		top: 0em;
 		width: 4em;
 		display: none;
@@ -3261,6 +3261,8 @@
 			text-align: center;
 			top: 0.5em;
 			width: 3.5em;
+			font-weight: 700;
+			font-family: Lato;
 		}
 
 	#navPanel {
