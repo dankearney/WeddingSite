@@ -3209,7 +3209,7 @@
 		text-decoration: none;
 		height: 4em;
 		right: 0em;
-		top: .75em;
+		top: 0em;
 		width: 4em;
 		display: none;
 		z-index: 10002;
@@ -3224,13 +3224,12 @@
 			text-transform: none !important;
 			color: #fff;
 			display: block;
-			font-size: 16px;
+			font-size: 24px;
 			height: 2.25em;
 			left: 0.5em;
 			line-height: 2.25em;
 			position: absolute;
 			text-align: center;
-			top: 0.5em;
 			width: 3.5em;
 		}
 
@@ -3253,11 +3252,12 @@
 		.navPanelToggle *:before {
 			color: #fff;
 			display: block;
-			font-size: 16px;
+			font-size: 24px;
 			height: 2.25em;
 			left: 0.5em;
 			line-height: 2.25em;
 			position: absolute;
+			padding-right: 1em;
 			text-align: center;
 			top: 0.5em;
 			width: 3.5em;
