@@ -39,3 +39,10 @@
 .row {
 	margin-bottom: 3em;
 }
+
+.registry {
+	width: 30%;
+	display: inline;
+	margin: 1em;
+	max-width: 200px;
+}

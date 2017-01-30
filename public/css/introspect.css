@@ -3946,9 +3946,11 @@
 		#footer .copyright {
 			font-size: 0.9em;
 			padding: 0;
+			color: #4b4b4b;
 		}
 
 		#footer .copyright a {
 			color: #f2a3a5;
+			font-size: 0.9em !important;
 		}
 
