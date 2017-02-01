@@ -36,6 +36,11 @@
     margin: 10px;
 }
 
+.hotel-image {
+	width: 80%;
+	max-width: 300px;
+}
+
 .row {
 	margin-bottom: 3em;
 }
