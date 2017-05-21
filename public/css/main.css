@@ -51,3 +51,7 @@
 	margin: 1em;
 	max-width: 200px;
 }
+
+.lowercase-header {
+	text-transform: none !important;
+}

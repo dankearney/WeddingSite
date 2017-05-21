@@ -28,6 +28,10 @@ app.get('/gift-registry', function(req, resp) {
   renderMobileFriendly(req, resp, 'gift-registry');
 })
 
+app.get('/our-story', function(req, resp) {
+  renderMobileFriendly(req, resp, 'our-story');
+})
+
 app.get('/local-attractions', function(req, resp) {
   renderMobileFriendly(req, resp, 'local-attractions')
 })
